@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family : "Poppins", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#lecture-main{
+    height: 100%;
+    width: 100%;
+}
+/* header------------------------------------- */
+
+/* -------------------------- */
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#page1-upper{
+    height: 20%;
+    width: 100%;
+}
+.image-upper{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+.image-upper img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+#page1-lower{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(193, 216, 176, 0.744);
+    display: flex;
+}
+#page_notes-bar{
+    height: 100%;
+    width: 30%;
+}
+.fix-home-bar-lecture{
+    height: 100%;
+    width: 20%;
+    background-color: #ffff;
+    border-radius: 25px;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fix-home-bar-icon{
+    height:60%;
+    width: 80%;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ri-list-ordered {
+    font-size: 25px;
+}
+.fix-home-bar-icon >a{
+    text-decoration: none;
+}
+
+#button1{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+#button1:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+color: #ffff;
+border: solid 2px #0066cc;
+}
+
+#button2 {
+    font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+#button2:hover{
+
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+    }
+#button3{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+#button3:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+
+
+#button2-1{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+} 
+#button2-1:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+#button2-2{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+#button2-2:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+#button2-3{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}  
+#button2-3:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+#button2-3{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}  
+#button2-3:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+#button3-1{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}  
+#button3-1:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+#button3-2{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}  
+#button3-2:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+#button3-3{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}  
+#button3-3:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    color: #ffff;
+    border: solid 2px #0066cc;
+}
+
+#page-notes-right{
+    height: 100%;
+    width: 90%;
+}
+#page-notes-right-upper{
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.page-notes-right-upper-left{
+    height:100%;
+    width: 50%;
+    position: relative;
+    left: -8%;
+
+}
+.page-notes-right-upper-right{
+    height: 80%;
+    width: 40%;
+    position: relative;
+    left: -15%;
+}
+#page-notes-right-lower{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.page-notes-right-lower-left{
+    height:100%;
+    width: 50%;
+    position: relative;
+    top: 60%;
+    left: -8%;
+}
+.page-notes-right-lower-right{
+    height: 80%;
+    width: 40%;
+    position: relative;
+    top: 60%;
+    left: -15%;
+}
+/* ------------------------ */
+#page2{
+    height: 100%;
+    width: 100%;
+}
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+/* ------------------ */
+#page3{
+    height: 100%;
+    width: 100%;
+}  
+  .container {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : warp;
+    padding : 30px;  
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #cfd9d8;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height: 320px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+
+
+  
